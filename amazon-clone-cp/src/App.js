@@ -7,20 +7,21 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Checkout from './Checkout';
 
 function App() {
   return (
     <Router>
       <div className="app">
+       <Header />
         <Switch>
           <Route path="/checkout">
-            <Header />
-            <h1>checkout</h1>
+            
+            <Checkout />
           </Route>
 
-          
-          <Route path="/">
-            <Header />
+
+          <Route path="/">            
             <Home />
           </Route>
         </Switch>
