@@ -8,7 +8,10 @@ function Home() {
             <div className="home__container">
                 <img className="home__img" src="https://i.imgur.com/SYHeuYM.jpg" alt="" />
                 <div className="home__row">
-                    <Product />
+                    <Product title='the lean startup' price={29.99}
+                        image={"https://m.media-amazon.com/images/I/51WIKlio9qL.jpg"}
+                        rating={5}
+                    />
                     <Product />
                 </div>
                 <div className="home__row">
