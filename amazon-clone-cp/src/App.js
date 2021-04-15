@@ -8,20 +8,24 @@ import {
   Link
 } from "react-router-dom";
 import Checkout from './Checkout';
+import Login from './Login';
+
 
 function App() {
   return (
     <Router>
       <div className="app">
-       <Header />
+       
         <Switch>
-          <Route path="/checkout">
-            
+         <Route path="/login">            
+            <Login />
+          </Route>
+          <Route path="/checkout">     
+            <Header />       
             <Checkout />
           </Route>
-
-
-          <Route path="/">            
+          <Route path="/">     
+           <Header />       
             <Home />
           </Route>
         </Switch>
