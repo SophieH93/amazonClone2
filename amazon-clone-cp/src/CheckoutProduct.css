@@ -38,3 +38,17 @@
     font-size: 17px;
     font-weight: 800;
 }
+
+@media only screen and (max-width: 812px) {
+   
+    .checkoutProduct {
+        flex-direction: column;
+        border-bottom: 1px solid #f0c14b;
+    }
+
+    .checkoutProduct__info button {
+       margin-bottom: 10px; 
+    }
+   
+    
+}
