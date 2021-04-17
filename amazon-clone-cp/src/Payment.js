@@ -52,7 +52,7 @@ function Payment() {
             dispatch({
                 type: 'EMPTY_BASKET'
             })
-            
+
             history.replace('/orders')
         })
     };
@@ -99,7 +99,7 @@ function Payment() {
                         <h3>Payment Method</h3>
                     </div>
                     <div className="payment__details">
-                        <form oonSubmit={handleSubmit}>
+                        <form onSubmit={handleSubmit}>
                             <CardElement onChange={handleChange} />
                             <div className="payment__priceContainer">
                                 <CurrencyFormat
