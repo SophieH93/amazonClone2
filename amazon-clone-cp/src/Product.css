@@ -8,7 +8,7 @@
     width: 100%;
     max-height: 400px;
     min-width: 100px;
-    background-color: white;
+    background-color: #fff;
     z-index: 1;
     box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
     transition: transform 100ms ease-in;
@@ -41,8 +41,7 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     cursor: pointer;
-    width: 20%;
-    height: 25px;   
+    padding: 4px;
     transition: all 0.1s ease-in-out;
 }
 
@@ -50,7 +49,6 @@
     transform: scale(1.04);
    
 }
-
 
 .product__price {
     margin-top: 5px;
