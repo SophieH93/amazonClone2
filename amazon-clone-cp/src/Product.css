@@ -16,20 +16,35 @@
     display: flex;
 }
 
-.product>img {
+.product img {
     max-height: 200px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    transition: all 0.5s;
 }
 
-.product>button {
+.product img:hover {
+    transform: scale(1.05);
+}
+.product button {
     background: #f0c14b;
+    border-radius: 2px;
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    cursor: pointer;
+    width: 20%;
+    height: 25px;   
+    transition: all 0.1s ease-in-out;
 }
+
+.product button:hover {
+    transform: scale(1.04);
+   
+}
+
 
 .product__price {
     margin-top: 5px;
