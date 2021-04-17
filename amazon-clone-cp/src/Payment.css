@@ -12,6 +12,7 @@
 
 .payment__container h1 a {
     text-decoration: none;
+    color: #846a29;
 }
 
 .payment__section {
@@ -48,3 +49,22 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
   }
+
+  @media only screen and (max-width: 812px) {
+    
+    .payment__section{
+        flex-direction: column;
+    }
+    
+    .payment__title, .payment__address {
+        text-align: center;
+    }
+
+    .payment__details h3  { 
+        margin-top: 10px;
+    }
+    
+    .StripeElement {
+        margin-top: 10px;;
+    }
+}
