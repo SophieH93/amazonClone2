@@ -1,9 +1,9 @@
 # Amazon Clone
 
+![](amazonMockuo.gif)
 
 
-
-
+This is a full Stack Amazon Clone website created with Reactjs. I used Firebase Cloud Functions and Stripe Payment system.
 
 ## Technologies Used
 - [Reactjs](https://reactjs.org/)
@@ -23,4 +23,7 @@ yarn add @stripe/react-stripe-js
 
 Go to stripe website and sign in    
 Click on 'Get your test API keys'
-Copy the 'Oublishable key' 
+Copy the 'Publishable key' 
+
+## Credits
+[Amazon Clone-Youtube](https://www.youtube.com/watch?v=RDV3Z1KCBvo)
